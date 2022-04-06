@@ -14,6 +14,7 @@
     <main class="card">
         <h2 class="left">{{restaurant.name}}</h2>
         <h2 class="right">{{restaurant.rating}}/5 ({{restaurant.review_count}})</h2>
+        <!-- Syntax found from https://css-tricks.com/left-align-and-right-align-text-on-the-same-line/ -->
         <div style="clear: both;"></div>
         <img src={{restaurant.image_url}} />
         <p>{{restaurant.display_address}} ({{restaurant.coordinates.latitude}}, {{restaurant.coordinates.longitude}})</p>
